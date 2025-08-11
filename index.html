@@ -35,13 +35,18 @@ if (umur <= 17) {
 } else {
   alert('kamu sudah dewasa')
 }
+let angkaRahasia = 7;
+let tebakanAndi = parseInt(prompt("Masukkan tebakan Andi:"));
 
-let angkarahasia = prompt('angkaraahasia')
-if(angkarahasia >=7 ){
-  alert('tebakan andi benar!')
+if (tebakanAndi === angkaRahasia) {
+  alert("Tebakan Andi benar!");
+} else if (tebakanAndi < angkaRahasia) {
+  alert("Tebakan Andi terlalu kecil");
 } else {
-  alert ('tebakan andi terlalu kecil')
+  alert("Tebakan Andi terlalu besar");
 }
+
+
 
   </script>
 </body>
